@@ -89,14 +89,14 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="🔍 ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs ⚙️", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🪧 ᴀʙᴏᴜᴛ", callback_data="fallen_"),
+        InlineKeyboardButton(text="🌐 ʙᴏᴛ ᴡᴇʙꜱɪᴛᴇ", url="http://jerrybot.000.pe/"),
     ],
     [
-        InlineKeyboardButton(text="💎 ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/xax_ha_ha_l"),
+        InlineKeyboardButton(text="💎 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/xax_ha_ha_l"),
         InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
     ],
 ]
@@ -397,19 +397,19 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🌐 ʙᴏᴛ ᴡᴇʙꜱɪᴛᴇ", url="http://jerrybot.000.pe/"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🪧 ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="👨🏼‍💼 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ",
-                            url="https://github.com/AnonymousX1025",
+                            text="🆓 ʜᴇʀᴏᴋᴜ ʙᴏᴛ 🗣️",
+                            url="https://t.me/Herokuaccountbot?start=5500931763",
                         ),
                     ],
                     [
@@ -444,7 +444,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴍᴇ ꜰʀᴇᴇ ᴄᴏᴅᴇ :* [ʜᴇʀᴏᴋᴜ ꜰʀᴇᴇ ʙᴏᴛ](https://t.me/HerokuAccountBot)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴍᴇ ꜰʀᴇᴇ ᴩʀᴏᴊᴇᴄᴛꜱ :* [ʜᴇʀᴏᴋᴜ ꜰʀᴇᴇ ʙᴏᴛ](https://t.me/HerokuAccountBot)
 
 
 {BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://t.me/HerokuAccountBot).
